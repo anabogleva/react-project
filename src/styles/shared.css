@@ -1,0 +1,53 @@
+/* SearchInput */
+.search {
+  padding: 12px 20px;
+  border-radius: 20px;
+  background: #353e48;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  outline: none;
+  background: transparent;
+  border: none;
+  margin-left: 8px;
+  color: #717b89;
+}
+
+.search .search-icon {
+  height: 18px;
+}
+/*
+*** text-color
+*/
+
+.text-white-dark {
+  color: #7c8696;
+}
+
+.text-white-middle {
+  color: #757f8e;
+}
+
+
+.text-white-light {
+  color: #aeb9cc; 
+}
+
+.text-blue-dark {
+  color: #578acd;
+}
+
+.text-black-dark {
+  color: #1c222a;
+}
+
+.text-black-middle {
+  color: #3c3c3c;
+}
+
+.text-black-light {
+  color: #60656e;
+}
+

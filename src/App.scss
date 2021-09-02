@@ -1,0 +1,112 @@
+@import "./styles/shared.css";
+
+.app {
+  font-size: 14px;
+}
+
+.bg-header {
+  background-color: #336399;
+}
+
+.dashboard-header .dashboard-header-add {
+  width: 1rem;
+  height: 1rem;
+  border: 2rem solid #ff64a4;
+  border-radius: 100%;
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.dashboard-header .dashboard-header-add img {
+  position: absolute;
+  top: -11px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.invoice-sidebar {
+  background-color: #2f3740;
+}
+
+.list-item {
+  border-bottom: 1px solid #404853;
+  padding: 15px;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.invoice-details {
+  min-height: 80vh;
+}
+
+.bg-gray {
+  background-color: #f2f3f5;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+button > img {
+  margin-left: 1rem !important;
+}
+
+.no-border {
+  border: 0;
+}
+
+.invoice-search-input {
+  color: white;
+}
+
+.width-auto {
+  width: auto;
+}
+
+.invoice-search-input .form-control {
+  background-color: #2f3740;
+  color: white;
+}
+
+.invoice-search-input .input-group-prepend {
+  z-index: 2;
+  padding: 1rem;
+}
+
+/* modal */
+
+.modal-size{
+  width: 40vw!important;
+  max-width: 40vw!important;
+}
+
+.modal-header-border {
+  border-bottom: 1px solid #ced4da;
+}
+
+.modal-footer-color {
+  background-color: #eef0f2;
+}
+
+.modal-edit .table {
+  max-height: 80h;
+}
+
+.modal-edit .table .first-row {
+  border-top: 1px solid #ced4da;
+}
+
+.div-close {
+  margin: auto;
+  border: 1px solid #008eff;
+  padding-left: 1rem;
+}
+
+.img-close {
+  padding: 10px 0
+}
+

@@ -1,0 +1,27 @@
+/* invoice sidebar */
+.invoice-sidebar .list-group {
+  height: 91.5vh;
+  overflow: auto;
+}
+
+.invoice-sidebar .list-group .list-item .invoice-list-item{
+  cursor: pointer;
+}
+
+/* invoice detail content */
+table>:not(caption)>*>* {
+  border: none;
+}
+
+.table tr  {
+  border-top: 1px solid #a5adb8;
+  padding: 1rem;
+}
+
+.table thead tr th {
+  font-weight: 400;
+}
+
+.table tr td {
+  font-weight: 500;
+}
