@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* invoice sidebar */
 .invoice-sidebar .list-group {
   height: 91.5vh;
@@ -25,3 +26,32 @@ table>:not(caption)>*>* {
 .table tr td {
   font-weight: 500;
 }
+=======
+/* invoice sidebar */
+.invoice-sidebar .list-group {
+  height: 91.5vh;
+  overflow: auto;
+}
+
+.invoice-sidebar .list-group .list-item .invoice-list-item{
+  cursor: pointer;
+}
+
+/* invoice detail content */
+table>:not(caption)>*>* {
+  border: none;
+}
+
+.table tr  {
+  border-top: 1px solid #a5adb8;
+  padding: 1rem;
+}
+
+.table thead tr th {
+  font-weight: 400;
+}
+
+.table tr td {
+  font-weight: 500;
+}
+>>>>>>> b125e2ff8034ac3f938d8c19f5088629ad357fc0
